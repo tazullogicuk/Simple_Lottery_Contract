@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_don",
+						"type": "uint256"
+					}
+				],
+				"name": "CollectDonnerInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DeleteInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "donnerDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "add",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "don",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleMapping.sol": "ExampleMapping"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleMapping.sol": {
+			"keccak256": "0x8d2790b6167d1c6daf134206c25b854362febfa9f62cc39e9cd1c271526ff1cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5d709ad0abf31dfefe6d30a0fa62f86b7dfd60bc9c3d8084508bbcfe6dfa1a37",
+				"dweb:/ipfs/Qmc3rXzu6pBQY7k8CoJMcDtzFvWz8oddr6AoZEuJ2eso6L"
+			]
+		}
+	},
+	"version": 1
+}

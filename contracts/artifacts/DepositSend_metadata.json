@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "GetBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "Withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
+					}
+				],
+				"name": "WithdrawtoAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/DepositSend.sol": "DepositSend"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/DepositSend.sol": {
+			"keccak256": "0xabe0005ec3fd6f95d7c5eab8647019defe29878b70b1496865bb55362c819f09",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16c8c49d0944dae05697f951f37c3b2c0ef72e18246a2ab743ef82e2cf0a52eb",
+				"dweb:/ipfs/QmQ3PZ8dWg7ZNPQqe9C28XPaXMtmDbgrTepyA7GeH9ouLB"
+			]
+		}
+	},
+	"version": 1
+}
